@@ -1,0 +1,32 @@
+.sidebar{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  background: #ffffff;
+  width: 100px;
+  z-index: 1;
+  padding-top: 12px;
+}
+
+.sidebar-cont{
+  height: 80px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sidebar-cont:hover {
+  background: lightgrey;
+}
+
+.sidebar-cont span{
+  font-size: 10px;
+}
+
+.sidebar-cont img{
+  width: 25px;
+}
