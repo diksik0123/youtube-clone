@@ -16,7 +16,7 @@
   <title>Youtube Clone</title>
 </head>
 <body>
-  <div class="navbar">
+  <header class="navbar">
       <div class="first-section">
         <img id="hamburger-menu" src="./assets/youtube-icons/hamburger-menu.svg" alt="">
         <a href=""><img id="youtube-logo" src="./assets/youtube-icons/youtube-logo.svg" alt=""></a>
@@ -52,9 +52,9 @@
           <img id="profile-picture" src="./assets/channel-pictures/El_Gato.png" alt="">
         </div>
       </div>
-  </div>
+  </header>
 
-  <div class="sidebar">
+  <navbar class="sidebar">
     <div class="sidebar-cont">
       <img src="./assets/youtube-icons/home.svg" alt="">
       <span>Home</span>
@@ -78,152 +78,298 @@
     <div class="sidebar-cont"><img src="./assets/youtube-icons/library.svg" alt="">
       <span>Library</span>
     </div>
-  </div>
+  </navbar>
 
-  <div class="video-grid">
-    <div class="video-card">
-      <div class="thumbnail-container">
-        <img class="video-thumbnail" src="./assets/channel-pictures/thumbnail-1.webp" alt="">
-        <div class="video-time">14:20</div>
-      </div>
-      <div class="video-info-grid">
-        <div class="channel-img">
-          <img src="./assets/channel-pictures/profile-1.jpeg" alt="">
-          <div class="tooltip-channel">
+  <main>
+    <div class="video-grid">
+      <div class="video-card">
+        <div class="thumbnail-container">
+          <img class="video-thumbnail" src="./assets/channel-pictures/thumbnail-1.webp" alt="">
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-img">
             <img src="./assets/channel-pictures/profile-1.jpeg" alt="">
-            <div class="ch-info">
-              <p class="channel-tooltip-name">Marques Brownlee</p>
-              <p class="video-tooltip-stats">15M subscribers</p>
+            <div class="tooltip-channel">
+              <img src="./assets/channel-pictures/profile-1.jpeg" alt="">
+              <div class="ch-info">
+                <p class="channel-tooltip-name">Marques Brownlee</p>
+                <p class="video-tooltip-stats">15M subscribers</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="video-info">
-          <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
-          <p class="channel-name">Marques Brownlee</p>
-          <p class="video-stats">3.4M views &#8226; 6 months ago</p>
+          <div class="video-info">
+            <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+            <p class="channel-name">Marques Brownlee</p>
+            <p class="video-stats">3.4M views &#8226; 6 months ago</p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="video-card">
-      <div class="thumbnail-container">
-        <img class="video-thumbnail" src="./assets/channel-pictures/thumbnail-2.webp" alt="">
-        <div class="video-time">8:22</div>
-      </div>
-      <div class="video-info-grid">
-        <div class="channel-img">
-          <img src="./assets/channel-pictures/profile-2.jpeg" alt="">
-          <div class="tooltip-channel">
+      <div class="video-card">
+        <div class="thumbnail-container">
+          <img class="video-thumbnail" src="./assets/channel-pictures/thumbnail-2.webp" alt="">
+          <div class="video-time">8:22</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-img">
             <img src="./assets/channel-pictures/profile-2.jpeg" alt="">
-            <div class="ch-info">
-              <p class="channel-tooltip-name">Markiplier</p>
-              <p class="video-tooltip-stats">30M subscribers</p>
+            <div class="tooltip-channel">
+              <img src="./assets/channel-pictures/profile-2.jpeg" alt="">
+              <div class="ch-info">
+                <p class="channel-tooltip-name">Markiplier</p>
+                <p class="video-tooltip-stats">30M subscribers</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="video-info">
-          <p class="video-title">Try Not To Laugh Challenge #9</p>
-          <p class="channel-name">Markiplier</p>
-          <p class="video-stats">19M views &#8226; 4 years ago</p>
+          <div class="video-info">
+            <p class="video-title">Try Not To Laugh Challenge #9</p>
+            <p class="channel-name">Markiplier</p>
+            <p class="video-stats">19M views &#8226; 4 years ago</p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="video-card">
-      <div class="thumbnail-container">
-        <img class="video-thumbnail" src="./assets/channel-pictures/thumbnail-3.webp" alt="">
-        <div class="video-time">9:13</div>
-      </div>
-      <div class="video-info-grid">
-        <div class="channel-img">
-          <img src="./assets/channel-pictures/profile-3.jpeg" alt="">
-          <div class="tooltip-channel">
+      <div class="video-card">
+        <div class="thumbnail-container">
+          <img class="video-thumbnail" src="./assets/channel-pictures/thumbnail-3.webp" alt="">
+          <div class="video-time">9:13</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-img">
             <img src="./assets/channel-pictures/profile-3.jpeg" alt="">
-            <div class="ch-info">
-              <p class="channel-tooltip-name">SSSniperWolf</p>
-              <p class="video-tooltip-stats">35M subscribers</p>
+            <div class="tooltip-channel">
+              <img src="./assets/channel-pictures/profile-3.jpeg" alt="">
+              <div class="ch-info">
+                <p class="channel-tooltip-name">SSSniperWolf</p>
+                <p class="video-tooltip-stats">35M subscribers</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="video-info">
-          <p class="video-title">Crazy Tik Toks Taken Moments Before DISASTER</p>
-          <p class="channel-name">SSSniperWolf</p>
-          <p class="video-stats">12M views &#8226; 1 year ago</p>
+          <div class="video-info">
+            <p class="video-title">Crazy Tik Toks Taken Moments Before DISASTER</p>
+            <p class="channel-name">SSSniperWolf</p>
+            <p class="video-stats">12M views &#8226; 1 year ago</p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="video-card">
-      <div class="thumbnail-container">
-        <img class="video-thumbnail" src="./assets/channel-pictures/thumbnail-4.webp" alt="">
-        <div class="video-time">22:09</div>
-      </div>
-      <div class="video-info-grid">
-        <div class="channel-img">
-          <img src="./assets/channel-pictures/profile-4.jpeg" alt="">
-           <div class="tooltip-channel">
+      <div class="video-card">
+        <div class="thumbnail-container">
+          <img class="video-thumbnail" src="./assets/channel-pictures/thumbnail-4.webp" alt="">
+          <div class="video-time">22:09</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-img">
             <img src="./assets/channel-pictures/profile-4.jpeg" alt="">
-            <div class="ch-info">
-              <p class="channel-tooltip-name">Virtasum</p>
-              <p class="video-tooltip-stats">18.7M subscribers</p>
+            <div class="tooltip-channel">
+              <img src="./assets/channel-pictures/profile-4.jpeg" alt="">
+              <div class="ch-info">
+                <p class="channel-tooltip-name">Virtasum</p>
+                <p class="video-tooltip-stats">18.7M subscribers</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="video-info">
-          <p class="video-title">The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
-          <p class="channel-name">Veritasium</p>
-          <p class="video-stats">18M views &#8226; 4 months ago</p>
+          <div class="video-info">
+            <p class="video-title">The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
+            <p class="channel-name">Veritasium</p>
+            <p class="video-stats">18M views &#8226; 4 months ago</p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="video-card">
-      <div class="thumbnail-container">
-        <img class="video-thumbnail" src="./assets/channel-pictures/thumbnail-5.webp" alt="">
-        <div class="video-time">11:17</div>
-      </div>
-      <div class="video-info-grid">
-        <div class="channel-img">
-          <img src="./assets/channel-pictures/profile-5.jpeg" alt="">
-           <div class="tooltip-channel">
+      <div class="video-card">
+        <div class="thumbnail-container">
+          <img class="video-thumbnail" src="./assets/channel-pictures/thumbnail-5.webp" alt="">
+          <div class="video-time">11:17</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-img">
             <img src="./assets/channel-pictures/profile-5.jpeg" alt="">
-            <div class="ch-info">
-              <p class="channel-tooltip-name">CS Dojo</p>
-              <p class="video-tooltip-stats">1.95M subscribers</p>
+            <div class="tooltip-channel">
+              <img src="./assets/channel-pictures/profile-5.jpeg" alt="">
+              <div class="ch-info">
+                <p class="channel-tooltip-name">CS Dojo</p>
+                <p class="video-tooltip-stats">1.95M subscribers</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="video-info">
-          <p class="video-title">Kadane's Algorithm to Maximum Sum Subarray Problem</p>
-          <p class="channel-name">CS Dojo</p>
-          <p class="video-stats">519K views &#8226; 5 years ago</p>
+          <div class="video-info">
+            <p class="video-title">Kadane's Algorithm to Maximum Sum Subarray Problem</p>
+            <p class="channel-name">CS Dojo</p>
+            <p class="video-stats">519K views &#8226; 5 years ago</p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="video-card">
-      <div class="thumbnail-container">
-        <img class="video-thumbnail" src="./assets/channel-pictures/thumbnail-6.webp" alt="">
-        <div class="video-time">19:59</div>
-      </div>
-      <div class="video-info-grid">
-        <div class="channel-img">
-          <img src="./assets/channel-pictures/profile-6.jpeg" alt="">
-          <div class="tooltip-channel">
+      <div class="video-card">
+        <div class="thumbnail-container">
+          <img class="video-thumbnail" src="./assets/channel-pictures/thumbnail-6.webp" alt="">
+          <div class="video-time">19:59</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-img">
             <img src="./assets/channel-pictures/profile-6.jpeg" alt="">
-            <div class="ch-info">
-              <p class="channel-tooltip-name">MrBeast</p>
-              <p class="video-tooltip-stats">429M subscribers</p>
+            <div class="tooltip-channel">
+              <img src="./assets/channel-pictures/profile-6.jpeg" alt="">
+              <div class="ch-info">
+                <p class="channel-tooltip-name">MrBeast</p>
+                <p class="video-tooltip-stats">429M subscribers</p>
+              </div>
             </div>
           </div>
+          <div class="video-info">
+            <p class="video-title">Anything You Can Fit In The Circle I’ll Pay For</p>
+            <p class="channel-name">MrBeast</p>
+            <p class="video-stats">141M views &#8226; 1 year ago</p>
+          </div>
         </div>
-        <div class="video-info">
-          <p class="video-title">Anything You Can Fit In The Circle I’ll Pay For</p>
-          <p class="channel-name">MrBeast</p>
-          <p class="video-stats">141M views &#8226; 1 year ago</p>
+      </div>
+
+       <div class="video-card">
+        <div class="thumbnail-container">
+          <img class="video-thumbnail" src="./assets/channel-pictures/thumbnail-7.webp" alt="">
+          <div class="video-time">10:13</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-img">
+            <img src="./assets/channel-pictures/profile-7.jpeg" alt="">
+            <div class="tooltip-channel">
+              <img src="./assets/channel-pictures/profile-7.jpeg" alt="">
+              <div class="ch-info">
+                <p class="channel-tooltip-name">RealLifeLore</p>
+                <p class="video-tooltip-stats">7.86M subscribers</p>
+              </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <p class="video-title">Why Planes Don't Fly Over Tibet</p>
+            <p class="channel-name">RealLifeLore</p>
+            <p class="video-stats">6.6M views &#8226; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+       <div class="video-card">
+        <div class="thumbnail-container">
+          <img class="video-thumbnail" src="./assets/channel-pictures/thumbnail-8.webp" alt="">
+          <div class="video-time">7:12</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-img">
+            <img src="./assets/channel-pictures/profile-8.jpeg" alt="">
+            <div class="tooltip-channel">
+              <img src="./assets/channel-pictures/profile-8.jpeg" alt="">
+              <div class="ch-info">
+                <p class="channel-tooltip-name">Tech Vision</p>
+                <p class="video-tooltip-stats">844K subscribers</p>
+              </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <p class="video-title">Inside The World's Biggest Passenger Plane</p>
+            <p class="channel-name">Tech Vision</p>
+            <p class="video-stats">3.7M views &#8226; 10 months ago</p>
+          </div>
+        </div>
+      </div>
+
+       <div class="video-card">
+        <div class="thumbnail-container">
+          <img class="video-thumbnail" src="./assets/channel-pictures/thumbnail-9.webp" alt="">
+          <div class="video-time">13:17</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-img">
+            <img src="./assets/channel-pictures/profile-9.jpeg" alt="">
+            <div class="tooltip-channel">
+              <img src="./assets/channel-pictures/profile-9.jpeg" alt="">
+              <div class="ch-info">
+                <p class="channel-tooltip-name">ThenX</p>
+                <p class="video-tooltip-stats">7.84M subscriber</p>
+              </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <p class="video-title">The SECRET to Super Human STRENGTH</p>
+            <p class="channel-name">ThenX</p>
+            <p class="video-stats">20M views &#8226; 3 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-card">
+        <div class="thumbnail-container">
+          <img class="video-thumbnail" src="./assets/channel-pictures/thumbnail-10.webp" alt="">
+          <div class="video-time">7:53</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-img">
+            <img src="./assets/channel-pictures/profile-10.jpeg" alt="">
+            <div class="tooltip-channel">
+              <img src="./assets/channel-pictures/profile-10.jpeg" alt="">
+              <div class="ch-info">
+                <p class="channel-tooltip-name">Business Insider</p>
+                <p class="video-tooltip-stats">10.1M subscribers</p>
+              </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <p class="video-title">How The World's Largest Cruise Ship Makes 30,000 Meals Everyday</p>
+            <p class="channel-name">Business Insider</p>
+            <p class="video-stats">14M views &#8226; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-card">
+        <div class="thumbnail-container">
+          <img class="video-thumbnail" src="./assets/channel-pictures/thumbnail-11.webp" alt="">
+          <div class="video-time">4:10</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-img">
+            <img src="./assets/channel-pictures/profile-11.jpeg" alt="">
+            <div class="tooltip-channel">
+              <img src="./assets/channel-pictures/profile-11.jpeg" alt="">
+              <div class="ch-info">
+                <p class="channel-tooltip-name">Destination Tips</p>
+                <p class="video-tooltip-stats">282K subscribers</p>
+              </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <p class="video-title">Dubai's Crazy Underwater Train and Other Things #Only in Dubai</p>
+            <p class="channel-name">Destination Tips</p>
+            <p class="video-stats">3M views &#8226; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-card">
+        <div class="thumbnail-container">
+          <img class="video-thumbnail" src="./assets/channel-pictures/thumbnail-12.webp" alt="">
+          <div class="video-time">4:15</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-img">
+            <img src="./assets/channel-pictures/profile-12.jpeg" alt="">
+            <div class="tooltip-channel">
+              <img src="./assets/channel-pictures/profile-12.jpeg" alt="">
+              <div class="ch-info">
+                <p class="channel-tooltip-name">TED-Ed</p>
+                <p class="video-tooltip-stats">21.9M subscribers</p>
+              </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <p class="video-title">What would happen if you didn’t drink water? - Mia Nacamulli</p>
+            <p class="channel-name">TED-Ed</p>
+            <p class="video-stats">12M views &#8226; 5 year ago</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </main>
 </body> 
 </html>
